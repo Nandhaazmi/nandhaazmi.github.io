@@ -168,6 +168,10 @@ h3 {
     color: #ba0000;
 }
 
+.orange {
+    color: #de6e00;
+}
+
 .banner_underlay {
     background-size: cover;
     background-position: center;
@@ -217,4 +221,50 @@ a {
     font-size:30px;
     transform: translateY(-40px);
     float: right;
+}
+
+.goog-te-banner-frame{visibility:hidden !important;
+}
+
+#body-main{top:0px !important;
+}
+
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget {
+   color: transparent !important;
+}
+
+.goog-te-balloon-frame { 
+   display: none;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame{display: none !important;
+}
+
+.goog-text-highlight { background: none !important; box-shadow: none !important;
+}
+
+.circle-icon {
+    background: #ffc0c0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #000000;
+        color: white;
+    }
+
+    .subtle_link, .subtle_link > div > div, .subtle_link > div > div > p {
+        color: white;
+    }
 }

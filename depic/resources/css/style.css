@@ -100,8 +100,8 @@ body {
     -webkit-user-select: none;
     margin: 0 auto
 }
-body.white {
-    background-color: #fff
+body.black {
+    background-color: #000000
 }
 .cytyle-faux body.pinstripe {
     background: #c7ced5 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
