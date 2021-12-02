@@ -258,6 +258,18 @@ a {
     padding: 30px;
 }
 
+#audio {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+audio {
+  width: 100.2%;
+  height: auto;
+  cursor: pointer;
+}
+
 #video {
   width: 100%;
   height: auto;
