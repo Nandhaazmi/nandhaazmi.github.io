@@ -346,9 +346,10 @@ video {
   }
 }
 
-audio, embed {
-    position: absolute;
-    z-index: -9999;
+#audio {
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {
