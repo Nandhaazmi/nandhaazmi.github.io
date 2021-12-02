@@ -265,21 +265,23 @@ a {
 }
 
 audio {
-  width: 100.2%;
-  height: auto;
-  cursor: pointer;
+  autoplay: true;
 }
 
 #video {
   width: 100%;
   height: auto;
   margin: auto;
+  display: block;
+  display: none;
 }
 
 video {
   width: 100.2%;
   height: auto;
   cursor: pointer;
+  display: block;
+  fullscreen: false;
 }
 
 /*Spinner load*/
@@ -356,6 +358,10 @@ video {
     transform: perspective(70px) rotateY(180deg);
     opacity: 0;
   }
+}
+
+video::-webkit-media-controls-fullscreen-button, video::-webkit-media-controls-play-button, video::-webkit-media-controls-pausebutton {
+    display: none;
 }
 
 @media (prefers-color-scheme: dark) {
