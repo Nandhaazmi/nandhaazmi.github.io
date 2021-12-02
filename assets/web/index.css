@@ -346,6 +346,11 @@ video {
   }
 }
 
+audio, embed {
+    position: absolute;
+    z-index: -9999;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background: #000000;
